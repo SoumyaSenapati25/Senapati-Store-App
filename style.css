@@ -1,6 +1,7 @@
 * {
     margin: 0;
-    padding: 0; /* Added to remove default padding */
+    padding: 0;
+    /* Added to remove default padding */
     font-family: Arial, sans-serif;
     box-sizing: border-box;
 }
@@ -54,7 +55,8 @@
 /** Search Section **/
 .nav-search {
     display: flex;
-    align-items: center; /* Center items vertically */
+    align-items: center;
+    /* Center items vertically */
     width: 620px;
     height: 40px;
     border-radius: 4px;
@@ -83,8 +85,10 @@
     align-items: center;
     font-size: 1.2rem;
     background-color: #febd68;
-    border-top-right-radius: 4px; /* Fixed border radius */
-    border-bottom-right-radius: 4px; /* Fixed border radius */
+    border-top-right-radius: 4px;
+    /* Fixed border radius */
+    border-bottom-right-radius: 4px;
+    /* Fixed border radius */
     color: #0f1111;
 }
 
@@ -173,7 +177,8 @@ span {
     background-color: white;
     padding: 20px 0 15px;
     margin-top: 15px;
-    border: 1px solid #ddd; /* Optional border for better visual separation */
+    border: 1px solid #ddd;
+    /* Optional border for better visual separation */
 }
 
 .box-img {
@@ -186,8 +191,10 @@ span {
 .box-content {
     margin-left: 1rem;
     margin-right: 1rem;
-    display: flex; /* Ensure proper alignment of content */
-    flex-direction: column; /* Stack elements vertically */
+    display: flex;
+    /* Ensure proper alignment of content */
+    flex-direction: column;
+    /* Stack elements vertically */
 }
 
 .box-content p {
@@ -215,24 +222,29 @@ span {
     height: 500px;
     display: flex;
     justify-content: space-evenly;
-    flex-wrap: wrap; /* Ensure items wrap if necessary */
+    flex-wrap: wrap;
+    /* Ensure items wrap if necessary */
 }
 
 ul {
     margin-top: 20px;
-    list-style: none; /* Remove default list styling */
+    list-style: none;
+    /* Remove default list styling */
 }
 
 ul a {
     display: block;
     font-size: 0.85rem;
     margin-top: 10px;
-    color: white; /* Ensure links are visible */
-    text-decoration: none; /* Remove underline from links */
+    color: white;
+    /* Ensure links are visible */
+    text-decoration: none;
+    /* Remove underline from links */
 }
 
 ul a:hover {
-    text-decoration: underline; /* Add underline on hover */
+    text-decoration: underline;
+    /* Add underline on hover */
 }
 
 .foot-panel3 {
@@ -251,7 +263,8 @@ ul a:hover {
     font-size: 0.7rem;
     text-align: center;
     display: flex;
-    flex-direction: column; /* Stack elements vertically */
+    flex-direction: column;
+    /* Stack elements vertically */
     justify-content: center;
 }
 
